@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/39cdca11fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="fixed">
+                <h1><span>S</span>asi</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span> Sasitharan</span> <br>from <a href="https://maps.app.goo.gl/3RpEPtAAi5RFxm2W8"><i class="fa-solid fa-location-dot"></i></a> Trichy.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/20231110_203222.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a Frontend developer.I studied in Bishop Heber College and I completed python course.I have some basic knowledge about DBMS.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Developer</span><br>Web Designing</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br>Pursuing - Masters</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>B.Sc CS - 77.1%</li>
+                            <li><span>Current</span><br>M.Sc CS - Pursuing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------service--------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>A Frontend Developer is a professional responsible for creating and implementing the user interface and visual elements of a website or web application. They focus on the client-side of development, ensuring that the website or application is visually appealing, functional, and user-friendly.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptate sint consectetur quo, mollitia illo! Eveniet libero optio sit sint suscipit dolore.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo voluptate sint consectetur quo,  mollitia illo! Eveniet libero optio sit sint suscipit dolore.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png">
+                <div class="layer">
+                    <h3>Coffee shop webpage</h3>
+                    <p>This shows the items in the shop and it price.</p>
+                    <a href="cafe/coffee.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3>Musiq App</h3>
+                    <p>The app connect you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png">
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>The app connect you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> ssasi6481@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 8940969595</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/login?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.bing.com/ck/a?!&&p=a1c1dcfecba72d6aJmltdHM9MTcwMDE3OTIwMCZpZ3VpZD0xMDQ4NDhiYi02NzllLTYwMDItMGQ4Mi01OTZlNjY4YTYxYTcmaW5zaWQ9NTIxNA&ptn=3&ver=2&hsh=3&fclid=104848bb-679e-6002-0d82-596e668a61a7&psq=github&u=a1aHR0cHM6Ly9naXRodWIuY29tL2xvZ2lu&ntb=1"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="image/Sasi Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&#169; 2023 copyright all right reserved.</p>
+    </div>
+</div>
+
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sideme =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sideme.style.right="0";
+        }
+        function closemenu(){
+            sideme.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
